@@ -168,7 +168,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, serif;
+    font-family: "TyponineSans Regular 18"; /* monospace, serif; */
     font-size: 1em;
 }
 
