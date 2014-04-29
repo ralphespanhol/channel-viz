@@ -390,7 +390,7 @@
 	}
 
 	if(applicationName != '') {
-		/* $('h1').html(applicationName).css('color', 'white'); */
+		$('h1').html(applicationName).css('color', 'blue');
 		document.title = applicationName + ' - Powered by Xively';
 	}
 
