@@ -63,21 +63,7 @@
 	<script src="js/d3.v2.js"></script>
 	<script src="js/rickshaw.min.js"></script>
 	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script>
-jQuery(document).ready(function($) {
-  $.ajax({
-  url : "http://api.wunderground.com/api/Your_Key/geolookup/conditions/q/IA/Cedar_Rapids.json",
-  dataType : "jsonp",
-  success : function(parsed_json) {
-  var location = parsed_json['location']['city'];
-  var temp_f = parsed_json['current_observation']['temp_f'];
-  alert("Current temperature in " + location + " is: " + temp_f);
-  }
-  });
-});
-</script>
-
+	
 </head>
 <body>
 
@@ -398,6 +384,8 @@ jQuery(document).ready(function($) {
 
 	<script src="js/foundation.min.js"></script>
 	<script src="follows.js"></script>
+	
+	<span style='display:block !important; width: 170px; text-align: center; font-family: sans-serif; font-size: 12px;'><a href='http://www.wunderground.com/cgi-bin/findweather/getForecast?query=Sao Paulo, BZ' title='Sao Paulo, BZ Weather Forecast'><img src='http://weathersticker.wunderground.com/weathersticker/miniStates_metric/language/english/global/stations/83780.gif' alt='Find more about Weather in Sao Paulo, BZ' /></a><br><a href='http://www.wunderground.com' title='Get latest Weather Forecast updates' style='font-family: sans-serif; font-size: 12px;'>Click for weather forecast</a></span>
 
 </body>
 </html>
