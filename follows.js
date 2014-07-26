@@ -12,8 +12,8 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '1OoqpqrG3Ov2aiWmtvLRLjt9AxqDs1dyidwPvD3fZZ0el1Ho', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [1022109852], // Comma separated array of Xively Feed ID numbers
+	var defaultKey		= 'VF4xCtQfaXO3vYTTlrLhxOPdUyeNZf0rzD9AMOA8RKSZc6bB', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [469491341], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Environmental Monitoring', // Replaces Xively logo in the header
 		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
